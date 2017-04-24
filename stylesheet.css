@@ -1,0 +1,41 @@
+@font-face {
+  font-family: LemonMilkbold;
+  src: url("LemonMilkbold.otf") format("opentype");
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+h1 {
+  font-family: "Comic Sans MS", sans-serif;
+  text-align: center;
+}
+
+.logo {
+  background-image: url("logo.svg");
+  width: 30em;
+  height: 30em;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+textarea, input, button { outline: none; }
+
+.logo input {
+  display: block;
+  text-align: center;
+  background-color: rgba(0,255,0,0);
+  position: relative;
+  border: 0;
+  font-size: 12em;
+  font-family: "LemonMilkbold", sans-serif;
+  color: white;
+  width: 1em;
+  left: 0.75em;
+  top: 0.55em;
+  text-shadow: 0.025em 0.1em #0C7CD5;
+}
